@@ -1,0 +1,292 @@
+AssignmentProblem:
+MINIMIZE
+6*Assignment_1_1 + 16*Assignment_1_10 + 5*Assignment_1_11 + 4*Assignment_1_12 + 11*Assignment_1_13 + 19*Assignment_1_14 + 20*Assignment_1_15 + 17*Assignment_1_2 + 10*Assignment_1_3 + 1*Assignment_1_4 + 7*Assignment_1_6 + 13*Assignment_1_7 + 18*Assignment_1_8 + 21*Assignment_1_9 + 9*Assignment_2_1 + 32*Assignment_2_10 + 7*Assignment_2_11 + 3*Assignment_2_12 + 24*Assignment_2_13 + 21*Assignment_2_3 + 4*Assignment_2_4 + 5*Assignment_2_5 + 11*Assignment_2_7 + 8*Assignment_2_8 + 2*Assignment_3_1 + 6*Assignment_3_10 + 32*Assignment_3_14 + 27*Assignment_3_15 + 8*Assignment_3_2 + 5*Assignment_3_3 + 1*Assignment_3_5 + 6*Assignment_3_6 + 4*Assignment_3_7 + 11*Assignment_3_8 + 18*Assignment_3_9 + 19*Assignment_4_1 + 5*Assignment_4_14 + 21*Assignment_4_15 + 31*Assignment_4_2 + 19*Assignment_4_3 + 20*Assignment_4_4 + 9*Assignment_4_5 + 11*Assignment_4_6 + 15*Assignment_4_7 + 2*Assignment_4_8 + 21*Assignment_5_1 + 12*Assignment_5_11 + 22*Assignment_5_12 + 9*Assignment_5_13 + 23*Assignment_5_14 + 3*Assignment_5_15 + 25*Assignment_5_2 + 3*Assignment_5_4 + 14*Assignment_5_6 + 11*Assignment_5_7 + 20*Assignment_5_8 + 9*Assignment_5_9 + 11*Assignment_6_1 + 12*Assignment_6_10 + 7*Assignment_6_11 + 11*Assignment_6_12 + 1*Assignment_6_13 + 2*Assignment_6_14 + 1*Assignment_6_15 + 5*Assignment_6_2 + 21*Assignment_6_3 + 18*Assignment_6_5 + 20*Assignment_6_6 + 21*Assignment_6_7 + 17*Assignment_6_9 + 17*Assignment_7_1 + 21*Assignment_7_10 + 29*Assignment_7_11 + 34*Assignment_7_12 + 4*Assignment_7_13 + 7*Assignment_7_14 + 4*Assignment_7_2 + 20*Assignment_7_3 + 9*Assignment_7_4 + 22*Assignment_7_8 + 25*Assignment_7_9 + 4*Assignment_8_1 + 12*Assignment_8_10 + 33*Assignment_8_11 + 16*Assignment_8_12 + 11*Assignment_8_13 + 12*Assignment_8_15 + 3*Assignment_8_3 + 2*Assignment_8_4 + 4*Assignment_8_5 + 7*Assignment_8_6 + 9*Assignment_8_7 + 1*Assignment_8_8 + 6*Assignment_9_1 + 13*Assignment_9_10 + 35*Assignment_9_11 + 10*Assignment_9_13 + 5*Assignment_9_14 + 20*Assignment_9_15 + 2*Assignment_9_2 + 3*Assignment_9_4 + 9*Assignment_9_5 + 10*Assignment_9_6 + 12*Assignment_9_7 + 19*Assignment_9_9 + 0
+SUBJECT TO
+task_1_constraint: Assignment_1_1 + Assignment_2_1 + Assignment_3_1
+ + Assignment_4_1 + Assignment_5_1 + Assignment_6_1 + Assignment_7_1
+ + Assignment_8_1 + Assignment_9_1 <= 1
+
+task_2_constraint: Assignment_1_2 + Assignment_2_2 + Assignment_3_2
+ + Assignment_4_2 + Assignment_5_2 + Assignment_6_2 + Assignment_7_2
+ + Assignment_8_2 + Assignment_9_2 <= 1
+
+task_3_constraint: Assignment_1_3 + Assignment_2_3 + Assignment_3_3
+ + Assignment_4_3 + Assignment_5_3 + Assignment_6_3 + Assignment_7_3
+ + Assignment_8_3 + Assignment_9_3 <= 1
+
+task_4_constraint: Assignment_1_4 + Assignment_2_4 + Assignment_3_4
+ + Assignment_4_4 + Assignment_5_4 + Assignment_6_4 + Assignment_7_4
+ + Assignment_8_4 + Assignment_9_4 <= 1
+
+task_5_constraint: Assignment_1_5 + Assignment_2_5 + Assignment_3_5
+ + Assignment_4_5 + Assignment_5_5 + Assignment_6_5 + Assignment_7_5
+ + Assignment_8_5 + Assignment_9_5 <= 1
+
+task_6_constraint: Assignment_1_6 + Assignment_2_6 + Assignment_3_6
+ + Assignment_4_6 + Assignment_5_6 + Assignment_6_6 + Assignment_7_6
+ + Assignment_8_6 + Assignment_9_6 <= 1
+
+task_7_constraint: Assignment_1_7 + Assignment_2_7 + Assignment_3_7
+ + Assignment_4_7 + Assignment_5_7 + Assignment_6_7 + Assignment_7_7
+ + Assignment_8_7 + Assignment_9_7 <= 1
+
+task_8_constraint: Assignment_1_8 + Assignment_2_8 + Assignment_3_8
+ + Assignment_4_8 + Assignment_5_8 + Assignment_6_8 + Assignment_7_8
+ + Assignment_8_8 + Assignment_9_8 <= 1
+
+task_9_constraint: Assignment_1_9 + Assignment_2_9 + Assignment_3_9
+ + Assignment_4_9 + Assignment_5_9 + Assignment_6_9 + Assignment_7_9
+ + Assignment_8_9 + Assignment_9_9 <= 1
+
+task_10_constraint: Assignment_1_10 + Assignment_2_10 + Assignment_3_10
+ + Assignment_4_10 + Assignment_5_10 + Assignment_6_10 + Assignment_7_10
+ + Assignment_8_10 + Assignment_9_10 <= 1
+
+task_11_constraint: Assignment_1_11 + Assignment_2_11 + Assignment_3_11
+ + Assignment_4_11 + Assignment_5_11 + Assignment_6_11 + Assignment_7_11
+ + Assignment_8_11 + Assignment_9_11 <= 1
+
+task_12_constraint: Assignment_1_12 + Assignment_2_12 + Assignment_3_12
+ + Assignment_4_12 + Assignment_5_12 + Assignment_6_12 + Assignment_7_12
+ + Assignment_8_12 + Assignment_9_12 <= 1
+
+task_13_constraint: Assignment_1_13 + Assignment_2_13 + Assignment_3_13
+ + Assignment_4_13 + Assignment_5_13 + Assignment_6_13 + Assignment_7_13
+ + Assignment_8_13 + Assignment_9_13 <= 1
+
+task_14_constraint: Assignment_1_14 + Assignment_2_14 + Assignment_3_14
+ + Assignment_4_14 + Assignment_5_14 + Assignment_6_14 + Assignment_7_14
+ + Assignment_8_14 + Assignment_9_14 <= 1
+
+task_15_constraint: Assignment_1_15 + Assignment_2_15 + Assignment_3_15
+ + Assignment_4_15 + Assignment_5_15 + Assignment_6_15 + Assignment_7_15
+ + Assignment_8_15 + Assignment_9_15 <= 1
+
+agent_1_constraint: Assignment_1_1 + Assignment_1_10 + Assignment_1_11
+ + Assignment_1_12 + Assignment_1_13 + Assignment_1_14 + Assignment_1_15
+ + Assignment_1_2 + Assignment_1_3 + Assignment_1_4 + Assignment_1_5
+ + Assignment_1_6 + Assignment_1_7 + Assignment_1_8 + Assignment_1_9 = 1
+
+agent_2_constraint: Assignment_2_1 + Assignment_2_10 + Assignment_2_11
+ + Assignment_2_12 + Assignment_2_13 + Assignment_2_14 + Assignment_2_15
+ + Assignment_2_2 + Assignment_2_3 + Assignment_2_4 + Assignment_2_5
+ + Assignment_2_6 + Assignment_2_7 + Assignment_2_8 + Assignment_2_9 = 1
+
+agent_3_constraint: Assignment_3_1 + Assignment_3_10 + Assignment_3_11
+ + Assignment_3_12 + Assignment_3_13 + Assignment_3_14 + Assignment_3_15
+ + Assignment_3_2 + Assignment_3_3 + Assignment_3_4 + Assignment_3_5
+ + Assignment_3_6 + Assignment_3_7 + Assignment_3_8 + Assignment_3_9 = 1
+
+agent_4_constraint: Assignment_4_1 + Assignment_4_10 + Assignment_4_11
+ + Assignment_4_12 + Assignment_4_13 + Assignment_4_14 + Assignment_4_15
+ + Assignment_4_2 + Assignment_4_3 + Assignment_4_4 + Assignment_4_5
+ + Assignment_4_6 + Assignment_4_7 + Assignment_4_8 + Assignment_4_9 = 1
+
+agent_5_constraint: Assignment_5_1 + Assignment_5_10 + Assignment_5_11
+ + Assignment_5_12 + Assignment_5_13 + Assignment_5_14 + Assignment_5_15
+ + Assignment_5_2 + Assignment_5_3 + Assignment_5_4 + Assignment_5_5
+ + Assignment_5_6 + Assignment_5_7 + Assignment_5_8 + Assignment_5_9 = 1
+
+agent_6_constraint: Assignment_6_1 + Assignment_6_10 + Assignment_6_11
+ + Assignment_6_12 + Assignment_6_13 + Assignment_6_14 + Assignment_6_15
+ + Assignment_6_2 + Assignment_6_3 + Assignment_6_4 + Assignment_6_5
+ + Assignment_6_6 + Assignment_6_7 + Assignment_6_8 + Assignment_6_9 = 1
+
+agent_7_constraint: Assignment_7_1 + Assignment_7_10 + Assignment_7_11
+ + Assignment_7_12 + Assignment_7_13 + Assignment_7_14 + Assignment_7_15
+ + Assignment_7_2 + Assignment_7_3 + Assignment_7_4 + Assignment_7_5
+ + Assignment_7_6 + Assignment_7_7 + Assignment_7_8 + Assignment_7_9 = 1
+
+agent_8_constraint: Assignment_8_1 + Assignment_8_10 + Assignment_8_11
+ + Assignment_8_12 + Assignment_8_13 + Assignment_8_14 + Assignment_8_15
+ + Assignment_8_2 + Assignment_8_3 + Assignment_8_4 + Assignment_8_5
+ + Assignment_8_6 + Assignment_8_7 + Assignment_8_8 + Assignment_8_9 = 1
+
+agent_9_constraint: Assignment_9_1 + Assignment_9_10 + Assignment_9_11
+ + Assignment_9_12 + Assignment_9_13 + Assignment_9_14 + Assignment_9_15
+ + Assignment_9_2 + Assignment_9_3 + Assignment_9_4 + Assignment_9_5
+ + Assignment_9_6 + Assignment_9_7 + Assignment_9_8 + Assignment_9_9 = 1
+
+assignment_(1,5)_constraint: Assignment_1_5 = 0
+
+assignment_(2,2)_constraint: Assignment_2_2 = 0
+
+assignment_(2,6)_constraint: Assignment_2_6 = 0
+
+assignment_(4,9)_constraint: Assignment_4_9 = 0
+
+assignment_(4,10)_constraint: Assignment_4_10 = 0
+
+assignment_(4,11)_constraint: Assignment_4_11 = 0
+
+assignment_(4,12)_constraint: Assignment_4_12 = 0
+
+assignment_(4,13)_constraint: Assignment_4_13 = 0
+
+assignment_(5,3)_constraint: Assignment_5_3 = 0
+
+assignment_(5,5)_constraint: Assignment_5_5 = 0
+
+assignment_(5,10)_constraint: Assignment_5_10 = 0
+
+assignment_(6,4)_constraint: Assignment_6_4 = 0
+
+assignment_(6,8)_constraint: Assignment_6_8 = 0
+
+assignment_(7,5)_constraint: Assignment_7_5 = 0
+
+assignment_(7,6)_constraint: Assignment_7_6 = 0
+
+assignment_(7,7)_constraint: Assignment_7_7 = 0
+
+assignment_(7,15)_constraint: Assignment_7_15 = 0
+
+assignment_(8,2)_constraint: Assignment_8_2 = 0
+
+assignment_(8,9)_constraint: Assignment_8_9 = 0
+
+assignment_(8,14)_constraint: Assignment_8_14 = 0
+
+assignment_(9,3)_constraint: Assignment_9_3 = 0
+
+assignment_(9,8)_constraint: Assignment_9_8 = 0
+
+assignment_(9,12)_constraint: Assignment_9_12 = 0
+
+VARIABLES
+0 <= Assignment_1_1 <= 1 Integer
+0 <= Assignment_1_10 <= 1 Integer
+0 <= Assignment_1_11 <= 1 Integer
+0 <= Assignment_1_12 <= 1 Integer
+0 <= Assignment_1_13 <= 1 Integer
+0 <= Assignment_1_14 <= 1 Integer
+0 <= Assignment_1_15 <= 1 Integer
+0 <= Assignment_1_2 <= 1 Integer
+0 <= Assignment_1_3 <= 1 Integer
+0 <= Assignment_1_4 <= 1 Integer
+0 <= Assignment_1_5 <= 1 Integer
+0 <= Assignment_1_6 <= 1 Integer
+0 <= Assignment_1_7 <= 1 Integer
+0 <= Assignment_1_8 <= 1 Integer
+0 <= Assignment_1_9 <= 1 Integer
+0 <= Assignment_2_1 <= 1 Integer
+0 <= Assignment_2_10 <= 1 Integer
+0 <= Assignment_2_11 <= 1 Integer
+0 <= Assignment_2_12 <= 1 Integer
+0 <= Assignment_2_13 <= 1 Integer
+0 <= Assignment_2_14 <= 1 Integer
+0 <= Assignment_2_15 <= 1 Integer
+0 <= Assignment_2_2 <= 1 Integer
+0 <= Assignment_2_3 <= 1 Integer
+0 <= Assignment_2_4 <= 1 Integer
+0 <= Assignment_2_5 <= 1 Integer
+0 <= Assignment_2_6 <= 1 Integer
+0 <= Assignment_2_7 <= 1 Integer
+0 <= Assignment_2_8 <= 1 Integer
+0 <= Assignment_2_9 <= 1 Integer
+0 <= Assignment_3_1 <= 1 Integer
+0 <= Assignment_3_10 <= 1 Integer
+0 <= Assignment_3_11 <= 1 Integer
+0 <= Assignment_3_12 <= 1 Integer
+0 <= Assignment_3_13 <= 1 Integer
+0 <= Assignment_3_14 <= 1 Integer
+0 <= Assignment_3_15 <= 1 Integer
+0 <= Assignment_3_2 <= 1 Integer
+0 <= Assignment_3_3 <= 1 Integer
+0 <= Assignment_3_4 <= 1 Integer
+0 <= Assignment_3_5 <= 1 Integer
+0 <= Assignment_3_6 <= 1 Integer
+0 <= Assignment_3_7 <= 1 Integer
+0 <= Assignment_3_8 <= 1 Integer
+0 <= Assignment_3_9 <= 1 Integer
+0 <= Assignment_4_1 <= 1 Integer
+0 <= Assignment_4_10 <= 1 Integer
+0 <= Assignment_4_11 <= 1 Integer
+0 <= Assignment_4_12 <= 1 Integer
+0 <= Assignment_4_13 <= 1 Integer
+0 <= Assignment_4_14 <= 1 Integer
+0 <= Assignment_4_15 <= 1 Integer
+0 <= Assignment_4_2 <= 1 Integer
+0 <= Assignment_4_3 <= 1 Integer
+0 <= Assignment_4_4 <= 1 Integer
+0 <= Assignment_4_5 <= 1 Integer
+0 <= Assignment_4_6 <= 1 Integer
+0 <= Assignment_4_7 <= 1 Integer
+0 <= Assignment_4_8 <= 1 Integer
+0 <= Assignment_4_9 <= 1 Integer
+0 <= Assignment_5_1 <= 1 Integer
+0 <= Assignment_5_10 <= 1 Integer
+0 <= Assignment_5_11 <= 1 Integer
+0 <= Assignment_5_12 <= 1 Integer
+0 <= Assignment_5_13 <= 1 Integer
+0 <= Assignment_5_14 <= 1 Integer
+0 <= Assignment_5_15 <= 1 Integer
+0 <= Assignment_5_2 <= 1 Integer
+0 <= Assignment_5_3 <= 1 Integer
+0 <= Assignment_5_4 <= 1 Integer
+0 <= Assignment_5_5 <= 1 Integer
+0 <= Assignment_5_6 <= 1 Integer
+0 <= Assignment_5_7 <= 1 Integer
+0 <= Assignment_5_8 <= 1 Integer
+0 <= Assignment_5_9 <= 1 Integer
+0 <= Assignment_6_1 <= 1 Integer
+0 <= Assignment_6_10 <= 1 Integer
+0 <= Assignment_6_11 <= 1 Integer
+0 <= Assignment_6_12 <= 1 Integer
+0 <= Assignment_6_13 <= 1 Integer
+0 <= Assignment_6_14 <= 1 Integer
+0 <= Assignment_6_15 <= 1 Integer
+0 <= Assignment_6_2 <= 1 Integer
+0 <= Assignment_6_3 <= 1 Integer
+0 <= Assignment_6_4 <= 1 Integer
+0 <= Assignment_6_5 <= 1 Integer
+0 <= Assignment_6_6 <= 1 Integer
+0 <= Assignment_6_7 <= 1 Integer
+0 <= Assignment_6_8 <= 1 Integer
+0 <= Assignment_6_9 <= 1 Integer
+0 <= Assignment_7_1 <= 1 Integer
+0 <= Assignment_7_10 <= 1 Integer
+0 <= Assignment_7_11 <= 1 Integer
+0 <= Assignment_7_12 <= 1 Integer
+0 <= Assignment_7_13 <= 1 Integer
+0 <= Assignment_7_14 <= 1 Integer
+0 <= Assignment_7_15 <= 1 Integer
+0 <= Assignment_7_2 <= 1 Integer
+0 <= Assignment_7_3 <= 1 Integer
+0 <= Assignment_7_4 <= 1 Integer
+0 <= Assignment_7_5 <= 1 Integer
+0 <= Assignment_7_6 <= 1 Integer
+0 <= Assignment_7_7 <= 1 Integer
+0 <= Assignment_7_8 <= 1 Integer
+0 <= Assignment_7_9 <= 1 Integer
+0 <= Assignment_8_1 <= 1 Integer
+0 <= Assignment_8_10 <= 1 Integer
+0 <= Assignment_8_11 <= 1 Integer
+0 <= Assignment_8_12 <= 1 Integer
+0 <= Assignment_8_13 <= 1 Integer
+0 <= Assignment_8_14 <= 1 Integer
+0 <= Assignment_8_15 <= 1 Integer
+0 <= Assignment_8_2 <= 1 Integer
+0 <= Assignment_8_3 <= 1 Integer
+0 <= Assignment_8_4 <= 1 Integer
+0 <= Assignment_8_5 <= 1 Integer
+0 <= Assignment_8_6 <= 1 Integer
+0 <= Assignment_8_7 <= 1 Integer
+0 <= Assignment_8_8 <= 1 Integer
+0 <= Assignment_8_9 <= 1 Integer
+0 <= Assignment_9_1 <= 1 Integer
+0 <= Assignment_9_10 <= 1 Integer
+0 <= Assignment_9_11 <= 1 Integer
+0 <= Assignment_9_12 <= 1 Integer
+0 <= Assignment_9_13 <= 1 Integer
+0 <= Assignment_9_14 <= 1 Integer
+0 <= Assignment_9_15 <= 1 Integer
+0 <= Assignment_9_2 <= 1 Integer
+0 <= Assignment_9_3 <= 1 Integer
+0 <= Assignment_9_4 <= 1 Integer
+0 <= Assignment_9_5 <= 1 Integer
+0 <= Assignment_9_6 <= 1 Integer
+0 <= Assignment_9_7 <= 1 Integer
+0 <= Assignment_9_8 <= 1 Integer
+0 <= Assignment_9_9 <= 1 Integer
+
